@@ -1,0 +1,13 @@
+[package]
+name = "fft_rs"
+version = "0.1.0"
+edition = "2021"
+description = "A high-performance Fast Fourier Transform (FFT) library for Rust"
+
+[lib]
+name = "fft_rs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "fft_rs"
+path = "src/main.rs"
