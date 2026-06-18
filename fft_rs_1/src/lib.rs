@@ -29,6 +29,9 @@
 //! - `NotPowerOfTwo` – input length is not a power of 2
 //! - `TooLarge` – input length exceeds 2^24
 
+// we like mathematical loops
+#![allow(clippy::needless_range_loop)]
+
 pub mod error;
 pub mod complex;
 pub mod fft_core;
