@@ -1,11 +1,16 @@
 [package]
-name = "fft_rs"
-version = "0.1.0"
+name = "fft_rs-ma"
+version = "0.1.1"
 edition = "2021"
 description = "A high-performance Fast Fourier Transform (FFT) library for Rust"
+license = "MIT"
+repository = "https://github.com/misureaudio/Rusted_FFT_CT"
+documentation = "https://github.com/misureaudio/Rusted_FFT_CT"
+keywords = ["fft", "signal-processing", "transforms"]
+categories = ["mathematics"]
 
 [lib]
-name = "fft_rs"
+name = "fft_rs_ma"
 path = "src/lib.rs"
 
 [[bin]]
