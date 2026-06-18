@@ -8,7 +8,7 @@
 //! ## Quick Start
 //!
 //! ```
-//! use fft_rs::{FFT, Complex64};
+//! use fft_rs_ma::{FFT, Complex64};
 //!
 //! let input = vec![1.0f64, 2.0, 3.0, 4.0];
 //! let fft = FFT::new(input).unwrap();

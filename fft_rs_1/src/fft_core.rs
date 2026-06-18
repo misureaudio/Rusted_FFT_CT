@@ -182,7 +182,7 @@ fn fft_inverse<C: ComplexSample>(data: &mut [C], n: usize, log2n: usize) {
 /// # Example
 ///
 /// ```
-/// use fft_rs::FFT;
+/// use fft_rs_ma::FFT;
 ///
 /// let input = vec![1.0f64, 2.0, 3.0, 4.0];
 /// let fft = FFT::new(input).unwrap();
