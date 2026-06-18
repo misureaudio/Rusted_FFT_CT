@@ -1,6 +1,6 @@
 //! Integration tests for fft_rs.
 
-use fft_rs::{FFT, FFTRun, Complex64, FftError, is_power_of_two, IntoSample};
+use fft_rs_ma::{FFT, FFTRun, Complex64, FftError, is_power_of_two, IntoSample};
 
 // ============================================================================
 // 1. API Misuse Prevention
